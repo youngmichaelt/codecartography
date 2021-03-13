@@ -1,0 +1,32 @@
+,Item,Parent,Children,Value
+0,"
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","
+"
+1,"stringExample = ""Hello World""
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","stringExample = ""Hello World""
+"
+2,"
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","
+"
+3,"intExample = 10
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","intExample = 10
+"
+4,"
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","
+"
+5,"def functionExample(stringExample, intExample):
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","def functionExample(stringExample, intExample):
+"
+6,"
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","
+"
+7,"
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","
+"
+8,"
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","
+"
+9,"
+",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTABreturn stringExample, intExample\n']","
+"
+10,"functionExample(stringExample, intExample)",NA,[],"functionExample(stringExample, intExample)"
