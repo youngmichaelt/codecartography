@@ -9,6 +9,9 @@ def functionExample(stringExample, intExample):
     print(stringExample)
     print(intExample)
 
+    if intExample == 10:
+        print('HI')
+
     
 
     return stringExample, intExample

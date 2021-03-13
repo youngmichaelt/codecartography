@@ -1,35 +1,31 @@
 ,Item,Parent,Children,Value
-0,"
-",NA,[],"
-"
-1,"stringExample = ""Hello World""
+0,"stringExample = ""Hello World""
 ",NA,[],"stringExample = ""Hello World""
 "
-2,"
-",NA,[],"
-"
-3,"intExample = 10
+1,"intExample = 10
 ",NA,[],"intExample = 10
 "
-4,"
-",NA,[],"
+2,"def functionExample(stringExample, intExample):
+",NA,"['TABprint(stringExample)\n', 'TABprint(intExample)\n', 'TABif intExample == 10:\n', ""TABTABprint('HI')\n"", 'TAB\n', 'TABreturn stringExample, intExample\n']","def functionExample(stringExample, intExample):
 "
-5,"def functionExample(stringExample, intExample):
-",NA,"['TABTABprint(stringExample)\n', 'TABTABprint(intExample)\n', 'TABTAB\n', 'TABTABreturn stringExample, intExample\n']","def functionExample(stringExample, intExample):
+3,"TABprint(stringExample)
+","['def functionExample(stringExample, intExample):\n']",[],"TABprint(stringExample)
 "
-6,"
-",NA,[],"
+4,"TABprint(intExample)
+","['def functionExample(stringExample, intExample):\n']",[],"TABprint(intExample)
 "
-7,"
-",NA,[],"
+5,"TABif intExample == 10:
+","['def functionExample(stringExample, intExample):\n']",[],"TABif intExample == 10:
 "
-8,"
-",NA,[],"
+6,"TABTABprint('HI')
+","['def functionExample(stringExample, intExample):\n']",[],"TABTABprint('HI')
 "
-9,"
-",NA,[],"
+7,"TAB
+","['def functionExample(stringExample, intExample):\n']",[],"TAB
 "
-10,"
-",NA,[],"
+8,"TABreturn stringExample, intExample
+","['def functionExample(stringExample, intExample):\n']",[],"TABreturn stringExample, intExample
 "
-11,"functionExample(stringExample, intExample)",NA,[],"functionExample(stringExample, intExample)"
+9,"functionExample(stringExample, intExample)
+",NA,[],"functionExample(stringExample, intExample)
+"
