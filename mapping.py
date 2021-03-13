@@ -37,14 +37,18 @@ for line in lines:
 
         for x in lines:
 
-            if lines.index(x) <= lines.index(line): continue
+            print(x)
+            if lines.index(x) <= lines.index(line): 
+                
+                continue
 
             print(x)
             if ('TAB' in x):
+
                 temp.append(x)
 
             else:
-                continue
+                break
 
         children.append(temp)
 
